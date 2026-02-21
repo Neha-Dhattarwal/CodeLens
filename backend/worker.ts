@@ -3,7 +3,7 @@ import simpleGit from 'simple-git';
 import fs from 'fs-extra';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { Repo, FileRecord, Dependency } from './models.ts';
+import { Repo, FileRecord, Dependency } from './models.js';
 import { analyzeCode, generateArchitectureSummary } from './aiService.js';
 
 const __filename = fileURLToPath(import.meta.url);

@@ -6,8 +6,8 @@ import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { Repo, FileRecord, Dependency } from './models.ts';
-import { startAnalysisWorker } from './worker.ts';
+import { Repo, FileRecord, Dependency } from './models.js';
+import { startAnalysisWorker } from './worker.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
