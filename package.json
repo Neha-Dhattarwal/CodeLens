@@ -7,6 +7,7 @@
   "scripts": {
     "backend": "npx ts-node backend/server.ts",
     "frontend": "vite",
+    "build": "vite build",
     "start": "concurrently \"npm run backend\" \"npm run frontend\""
   },
   "dependencies": {
