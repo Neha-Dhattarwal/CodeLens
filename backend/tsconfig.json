@@ -9,10 +9,7 @@
         "esModuleInterop": true,
         "skipLibCheck": true,
         "allowJs": true,
-        "resolveJsonModule": true,
-        "types": [
-            "node"
-        ]
+        "resolveJsonModule": true
     },
     "include": [
         "**/*.ts",
