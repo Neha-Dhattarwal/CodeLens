@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodePulse AI - Repository Analyzer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://esm.sh/reactflow@11.11.4/dist/style.css">
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #020617;
+        color: #f1f5f9;
+        overflow-x: hidden;
+      }
+      .font-mono {
+        font-family: 'JetBrains Mono', monospace;
+      }
+      .custom-scrollbar::-webkit-scrollbar {
+        width: 6px;
+      }
+      .custom-scrollbar::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      .custom-scrollbar::-webkit-scrollbar-thumb {
+        background: #1e293b;
+        border-radius: 10px;
+      }
+      .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+        background: #334155;
+      }
+      /* React Flow overrides for dark mode */
+      .react-flow__node {
+        background: #1e293b !important;
+        color: #f1f5f9 !important;
+        border-color: #334155 !important;
+      }
+      .react-flow__controls button {
+        background: #1e293b !important;
+        border-bottom: 1px solid #334155 !important;
+        fill: #94a3b8 !important;
+      }
+      .react-flow__controls button:hover {
+        background: #334155 !important;
+      }
+      .react-flow__minimap {
+        background: #0f172a !important;
+      }
+    </style>
+    <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@19.2.4",
+    "react-dom": "https://esm.sh/react-dom@19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@19.2.4/",
+    "react/": "https://esm.sh/react@19.2.4/",
+    "react-router-dom": "https://esm.sh/react-router-dom@7.13.0",
+    "lucide-react": "https://esm.sh/lucide-react@0.474.0",
+    "reactflow": "https://esm.sh/reactflow@11.11.4",
+    "framer-motion": "https://esm.sh/framer-motion@11.11.4",
+    "axios": "https://esm.sh/axios@1.7.9",
+    "clsx": "https://esm.sh/clsx@2.1.1",
+    "tailwind-merge": "https://esm.sh/tailwind-merge@2.5.2",
+    "mongoose": "https://esm.sh/mongoose@^9.2.1",
+    "express": "https://esm.sh/express@^5.2.1",
+    "cors": "https://esm.sh/cors@^2.8.6",
+    "dotenv": "https://esm.sh/dotenv@^17.3.1",
+    "simple-git": "https://esm.sh/simple-git@^3.31.1",
+    "fs-extra": "https://esm.sh/fs-extra@^11.3.3",
+    "path": "https://esm.sh/path@^0.12.7",
+    "url": "https://esm.sh/url@^0.11.4",
+    "@google/genai": "https://esm.sh/@google/genai@^1.42.0"
+  }
+}
+</script>
+  <link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

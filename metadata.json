@@ -1,0 +1,6 @@
+
+{
+  "name": "CodePulse AI - Codebase Understanding Platform",
+  "description": "A production-ready platform that analyzes GitHub repositories using Groq AI to explain architecture, dependencies, and code flow.",
+  "requestFramePermissions": []
+}
