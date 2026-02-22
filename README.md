@@ -3,6 +3,8 @@
 
 CodeLens AI is an advanced repository understanding platform that combines static code analysis with state-of-the-art Large Language Models (LLM) to provide developers with instant, visual, and conceptual insights into any codebase.
 
+## Live DEMO
+https://code-lens-git-main-neha-dhattarwals-projects.vercel.app/
 
 ## 📸 Screenshots
 
